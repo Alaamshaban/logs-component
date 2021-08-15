@@ -1,0 +1,4 @@
+<div class="column">
+    <mat-icon class="copy_icon" (click)="copy()">content_copy</mat-icon>
+    <textarea id="textarea" rows="150" class="logs-body">{{ content.type==='json'?(content.data| json) : (content.data | prettyXML) }}</textarea>
+</div>

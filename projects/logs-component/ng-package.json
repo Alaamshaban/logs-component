@@ -1,0 +1,14 @@
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../../dist/logs-component",
+    "lib": {
+        "umdModuleIds": {
+            "moment-timezone": "moment-timezone",
+            "amazing-time-picker": "amazing-time-picker",
+            "@ngx-translate/core": "@ngx-translate/core",
+            "moment": "moment_"
+
+        },
+        "entryFile": "src/public-api.ts"
+    }
+}
